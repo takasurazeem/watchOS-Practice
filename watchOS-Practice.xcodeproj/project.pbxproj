@@ -15,6 +15,7 @@
 		F94D0B232BB0A7430077B664 /* watchOS_Practice_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D0B222BB0A7430077B664 /* watchOS_Practice_Watch_AppTests.swift */; };
 		F94D0B2D2BB0A7430077B664 /* watchOS_Practice_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D0B2C2BB0A7430077B664 /* watchOS_Practice_Watch_AppUITests.swift */; };
 		F94D0B2F2BB0A7430077B664 /* watchOS_Practice_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D0B2E2BB0A7430077B664 /* watchOS_Practice_Watch_AppUITestsLaunchTests.swift */; };
+		F993EEFF2BB178FC00876D9E /* EmojiSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993EEFE2BB178FC00876D9E /* EmojiSentence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		F94D0B282BB0A7430077B664 /* watchOS-Practice Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchOS-Practice Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94D0B2C2BB0A7430077B664 /* watchOS_Practice_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOS_Practice_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		F94D0B2E2BB0A7430077B664 /* watchOS_Practice_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOS_Practice_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F993EEFE2BB178FC00876D9E /* EmojiSentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiSentence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				F94D0B112BB0A7420077B664 /* watchOS_PracticeApp.swift */,
+				F993EEFE2BB178FC00876D9E /* EmojiSentence.swift */,
 				F94D0B132BB0A7420077B664 /* ContentView.swift */,
 				F94D0B152BB0A7430077B664 /* Assets.xcassets */,
 				F94D0B172BB0A7430077B664 /* Preview Content */,
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F993EEFF2BB178FC00876D9E /* EmojiSentence.swift in Sources */,
 				F94D0B142BB0A7420077B664 /* ContentView.swift in Sources */,
 				F94D0B122BB0A7420077B664 /* watchOS_PracticeApp.swift in Sources */,
 			);
